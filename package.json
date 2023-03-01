@@ -1,0 +1,21 @@
+{
+  "name": "api-ts_express",
+  "version": "1.0.0",
+  "description": "API lesson",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yan Bortsov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "tslog": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
