@@ -19,11 +19,11 @@ export abstract class BaseController {
     }
 
     public ok<T> (res: Response,msg:T) {
-        return this.send<T>(res, 200, msg)
+        this.send<T>(res, 200, msg)
     }
 
     public created (res: Response) {
-        res.sendStatus(201);
+       res.sendStatus(201);
     }
 
     protected bindRoutes (routes: IControllerRoute[]) {

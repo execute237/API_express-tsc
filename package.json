@@ -6,8 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node ./dist/main.js",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "Yan Bortsov",
   "license": "ISC",
