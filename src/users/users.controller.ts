@@ -58,7 +58,6 @@ export class UserController extends BaseController implements IUserController {
 		this.ok(res, { jwt });
 	}
 
-	//!Работа с API, в зависимости работы бизнес логики
 	async register(
 		{ body }: Request<{}, {}, UserRegisterDto>,
 		res: Response,

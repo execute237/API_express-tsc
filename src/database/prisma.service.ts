@@ -17,7 +17,7 @@ export class PrismaService {
 			this.logger.log('[PrismaService] Успешное подключение к базе данных');
 		} catch (e) {
 			if (e instanceof Error) {
-				this.logger.error(`[PrismaService] Ошибка подключения к базе данных ${e.message}`)
+				this.logger.error(`[PrismaService] Ошибка подключения к базе данных ${e.message}`);
 			}
 		}
 	}
