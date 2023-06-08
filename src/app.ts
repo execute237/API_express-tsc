@@ -52,6 +52,7 @@ export class App {
 	}
 
 	public close(): void {
+		this.logger.log('close app');
 		this.server.close();
 	}
 }
